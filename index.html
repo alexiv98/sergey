@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>С Днем Рождения!</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Marck+Script&family=Shadows+Into+Light+Two&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="card">
+            <img src="friend-photo.jpg" alt="Фото друга" class="friend-photo" />
+            <h1>С Днем Рождения, Cергей!</h1>
+            <p>
+                Помимо денег в кошельке, <br />
+                Желаю силы в кулаке, <br />
+                Губной помады на щеке, <br />
+                И много виски на столе! <br />
+            </p>
+            <button id="celebrateButton">🎉 Нажми на кнопочку 🎉</button>
+        </div>
+        <canvas id="confetti"></canvas>
+
+        <img id="celebrationImage" class="image-hidden" src="celebration-image.jpg" alt="Праздничное изображение" />
+
+        <!-- Два видео с обработчиком завершения -->
+        <video id="birthdayVideo1" class="video-hidden" src="birthday-video1.mp4" controls></video>
+        <video id="birthdayVideo2" class="video-hidden" src="birthday-video2.mp4" controls></video>
+
+        <audio id="celebrationSound" src="sound-effect.mp3" preload="auto"></audio>
+
+        <script src="script.js"></script>
+    </body>
+</html>
